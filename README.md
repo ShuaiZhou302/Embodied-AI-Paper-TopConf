@@ -19,9 +19,6 @@
 
 ## 📖 Paper List
 
-
-- [Embodied-AI-Paper-TopConf](#embodied-ai-paper-topconf)
-  - [📖 Paper List](#-paper-list)
 - [ICML2026](#icml2026)
   - [Vision-Language-Action Models](#vision-language-action-models)
   - [Vision-Language-Navigation Models](#vision-language-navigation-models)
