@@ -109,6 +109,7 @@
 - **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
 - **CoWVLA**: Chain of World: World Model Thinking in Latent Motion [Paper](https://arxiv.org/abs/2603.03195) [Page](https://fx-hit.github.io/cowvla-io/)
 - **QuantVLA**: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2602.20309) [Page](https://quantvla.github.io/)
+- **UniDex**: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos [Paper](https://arxiv.org/abs/2603.22264) [Page](https://unidex-ai.github.io/) [Code](https://github.com/unidex-ai/UniDex)
 
 ## Robot Learning and Policy
 
@@ -121,6 +122,7 @@
 - **GLMap**: Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning [Paper](https://arxiv.org/abs/2605.01736) [Code](https://github.com/sx-zhang/GLMap)
 - **Wanderland**: Geometrically Grounded Simulation for Open-World Embodied AI [Paper](https://arxiv.org/abs/2511.20620) [Page](https://ai4ce.github.io/wanderland/)
 - **SpaceTools**: Tool-Augmented Spatial Reasoning via Double Interactive RL [Paper](https://arxiv.org/abs/2512.04069) [Page](https://spacetools.github.io/)
+- Dexterous World Models [Paper](https://arxiv.org/abs/2512.17907) [Page](https://snuvclab.github.io/dwm/) [Code](https://github.com/snuvclab/dwm)
 
 ## Benchmark and Dataset
 
