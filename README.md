@@ -1,5 +1,5 @@
 # Embodied-AI-Paper-TopConf
-🔥 NeuIPS2025 &amp; CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 &amp; **ICLR2026** Embodied AI Paper List  Resources.
+🔥 CVPR2026 &amp; ICLR2026 &amp; NeuIPS2025 &amp; CORL2025 &amp; ICCV2025 &amp; ICML2025 &amp; RSS2025 &amp; CVPR2025 &amp; ICLR2025 Embodied AI Paper List  Resources.
 
 [03/22/2025] We plan to organize more papers on Embodied AI from top conferences in the future and build a more comprehensive paper list. If there are any conference papers you would like to browse or if you have any other suggestions, please feel free to leave an issue.
 
@@ -15,21 +15,30 @@
 
 [03/12/2026] We are updating Embodied AI papers accepted by ICLR2026! ([📖 ICLR2026](ICLR/ICLR2026.md))
 
+[05/18/2026] We are updating Embodied AI papers accepted by CVPR2026!
+
 ## 📖 Paper List
 
+- [📖 CVPR2026](#cvpr2026)
+  - [Vision-Language-Action Models](#vision-language-action-models)
+  - [World Models](#world-models)
+  - [Planning and Reasoning](#planning-and-reasoning)
+  - [Vision-Language-Navigation Models](#vision-language-navigation-models)
+  - [Policy](#policy)
+  - [Benchmark and Dataset](#benchmark-and-dataset)
 - [📖 ICLR2026](#iclr2026)
   - [Vision-Language-Action Models](#vision-language-action-models-1)
-  - [Vision-Language-Navigation Models](#vision-language-navigation-models)
-  - [World Models](#world-models)
+  - [Vision-Language-Navigation Models](#vision-language-navigation-models-1)
+  - [World Models](#world-models-1)
   - [Planning and Reasoning](#planning-and-reasoning-1)
   - [Navigation](#navigation)
   - [Humanoid](#humanoid)
-  - [3D Vision](#3d-vision-1)
-  - [Policy](#policy)
+  - [3D Vision](#3d-vision)
+  - [Policy](#policy-1)
   - [Dexterous Manipulation](#dexterous-manipulation)
   - [Tactile](#tactile)
   - [Sim2real and Real2sim](#sim2real-and-real2sim-1)
-  - [Benchmark and Dataset](#benchmark-and-dataset)
+  - [Benchmark and Dataset](#benchmark-and-dataset-1)
   - [Other](#other)
 - [📖 NeuIPS2025](#neuips2025)
   - [Vision-Language-Action Model](#vision-language-action-model)
@@ -86,6 +95,47 @@
   - [Sim2real and Real2sim](#sim2real-and-real2sim)
 - [📖 ICRA2025](#icra2025)
 
+
+# CVPR2026
+
+## Vision-Language-Action Models
+
+- **ACoT-VLA**: Action Chain-of-Thought for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2601.11404) [Code](https://github.com/AgibotTech/ACoT-VLA)
+- **Evo-1**: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment [Paper](https://arxiv.org/abs/2511.04555) [Code](https://github.com/MINT-SJTU/Evo-1)
+- **HiF-VLA**: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2512.09928) [Page](https://hifvla.github.io/)
+- **SaPaVe**: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics [Paper](https://arxiv.org/abs/2603.12193) [Page](https://lmzpai.github.io/SaPaVe)
+- **OptimusVLA**: Global Prior Meets Local Consistency: Dual-Memory Augmented Vision-Language-Action Model for Efficient Robotic Manipulation [Paper](https://arxiv.org/abs/2602.20200) [Code](https://github.com/JiuTian-VL/OptimusVLA)
+- **SRPO**: Self-Referential Policy Optimization for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2511.15605)
+- Adaptive Action Chunking at Inference-time for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2604.04161) [Page](https://lance-lot.github.io/adaptive-chunking.github.io/)
+- **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning [Paper](https://arxiv.org/abs/2601.09708) [Page](https://research.nvidia.com/labs/twn/publication/cvpr_2026_fastthinkact/)
+- **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
+- **CoWVLA**: Chain of World: World Model Thinking in Latent Motion [Paper](https://arxiv.org/abs/2603.03195) [Page](https://fx-hit.github.io/cowvla-io/)
+
+## World Models
+
+- **CoWVLA**: Chain of World: World Model Thinking in Latent Motion [Paper](https://arxiv.org/abs/2603.03195) [Page](https://fx-hit.github.io/cowvla-io/)
+
+## Planning and Reasoning
+
+- **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning [Paper](https://arxiv.org/abs/2601.09708) [Page](https://research.nvidia.com/labs/twn/publication/cvpr_2026_fastthinkact/)
+- **SpaceTools**: Tool-Augmented Spatial Reasoning via Double Interactive RL [Paper](https://arxiv.org/abs/2512.04069) [Page](https://spacetools.github.io/)
+
+## Vision-Language-Navigation Models
+
+- **GLMap**: Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning [Paper](https://arxiv.org/abs/2605.01736) [Code](https://github.com/sx-zhang/GLMap)
+- **Wanderland**: Geometrically Grounded Simulation for Open-World Embodied AI [Paper](https://arxiv.org/abs/2511.20620) [Page](https://ai4ce.github.io/wanderland/)
+
+## Policy
+
+- **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
+- **SRPO**: Self-Referential Policy Optimization for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2511.15605)
+- Adaptive Action Chunking at Inference-time for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2604.04161) [Page](https://lance-lot.github.io/adaptive-chunking.github.io/)
+
+## Benchmark and Dataset
+
+- **LIBERO-Plus**: In-depth Robustness Analysis of Vision-Language-Action Models [Paper](https://arxiv.org/abs/2510.13626) [Page](https://huggingface.co/papers/2510.13626)
+- **Wanderland**: Geometrically Grounded Simulation for Open-World Embodied AI [Paper](https://arxiv.org/abs/2511.20620) [Page](https://ai4ce.github.io/wanderland/)
+- **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
 
 # ICLR2026
 
