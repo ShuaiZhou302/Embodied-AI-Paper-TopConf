@@ -21,20 +21,18 @@
 
 - [📖 CVPR2026](#cvpr2026)
   - [Vision-Language-Action Models](#vision-language-action-models)
-  - [World Models](#world-models)
-  - [Planning and Reasoning](#planning-and-reasoning)
-  - [Vision-Language-Navigation Models](#vision-language-navigation-models)
-  - [Policy](#policy)
+  - [Robot Learning and Policy](#robot-learning-and-policy)
+  - [Embodied Navigation, Planning and Simulation](#embodied-navigation-planning-and-simulation)
   - [Benchmark and Dataset](#benchmark-and-dataset)
 - [📖 ICLR2026](#iclr2026)
   - [Vision-Language-Action Models](#vision-language-action-models-1)
-  - [Vision-Language-Navigation Models](#vision-language-navigation-models-1)
-  - [World Models](#world-models-1)
-  - [Planning and Reasoning](#planning-and-reasoning-1)
+  - [Vision-Language-Navigation Models](#vision-language-navigation-models)
+  - [World Models](#world-models)
+  - [Planning and Reasoning](#planning-and-reasoning)
   - [Navigation](#navigation)
   - [Humanoid](#humanoid)
   - [3D Vision](#3d-vision)
-  - [Policy](#policy-1)
+  - [Policy](#policy)
   - [Dexterous Manipulation](#dexterous-manipulation)
   - [Tactile](#tactile)
   - [Sim2real and Real2sim](#sim2real-and-real2sim-1)
@@ -110,32 +108,23 @@
 - **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning [Paper](https://arxiv.org/abs/2601.09708) [Page](https://research.nvidia.com/labs/twn/publication/cvpr_2026_fastthinkact/)
 - **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
 - **CoWVLA**: Chain of World: World Model Thinking in Latent Motion [Paper](https://arxiv.org/abs/2603.03195) [Page](https://fx-hit.github.io/cowvla-io/)
+- **QuantVLA**: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2602.20309) [Page](https://quantvla.github.io/)
 
-## World Models
+## Robot Learning and Policy
 
-- **CoWVLA**: Chain of World: World Model Thinking in Latent Motion [Paper](https://arxiv.org/abs/2603.03195) [Page](https://fx-hit.github.io/cowvla-io/)
+- **GeCo-SRT**: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer [Paper](https://arxiv.org/abs/2602.20871) [Page](https://namelesscrew.github.io/)
+- Contact-Aware Neural Dynamics [Paper](https://arxiv.org/abs/2601.12796) [Page](https://changwei-jing.github.io/neural-physics/)
+- **VIRAL**: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation [Paper](https://arxiv.org/abs/2511.15200) [Page](https://viral-humanoid.github.io/) [Code](https://github.com/NVlabs/VIRAL)
 
-## Planning and Reasoning
-
-- **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning [Paper](https://arxiv.org/abs/2601.09708) [Page](https://research.nvidia.com/labs/twn/publication/cvpr_2026_fastthinkact/)
-- **SpaceTools**: Tool-Augmented Spatial Reasoning via Double Interactive RL [Paper](https://arxiv.org/abs/2512.04069) [Page](https://spacetools.github.io/)
-
-## Vision-Language-Navigation Models
+## Embodied Navigation, Planning and Simulation
 
 - **GLMap**: Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning [Paper](https://arxiv.org/abs/2605.01736) [Code](https://github.com/sx-zhang/GLMap)
 - **Wanderland**: Geometrically Grounded Simulation for Open-World Embodied AI [Paper](https://arxiv.org/abs/2511.20620) [Page](https://ai4ce.github.io/wanderland/)
-
-## Policy
-
-- **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
-- **SRPO**: Self-Referential Policy Optimization for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2511.15605)
-- Adaptive Action Chunking at Inference-time for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2604.04161) [Page](https://lance-lot.github.io/adaptive-chunking.github.io/)
+- **SpaceTools**: Tool-Augmented Spatial Reasoning via Double Interactive RL [Paper](https://arxiv.org/abs/2512.04069) [Page](https://spacetools.github.io/)
 
 ## Benchmark and Dataset
 
 - **LIBERO-Plus**: In-depth Robustness Analysis of Vision-Language-Action Models [Paper](https://arxiv.org/abs/2510.13626) [Page](https://huggingface.co/papers/2510.13626)
-- **Wanderland**: Geometrically Grounded Simulation for Open-World Embodied AI [Paper](https://arxiv.org/abs/2511.20620) [Page](https://ai4ce.github.io/wanderland/)
-- **XL-VLA**: Cross-Hand Latent Representation for Vision-Language-Action Models [Paper](https://arxiv.org/abs/2603.10158) [Page](https://xl-vla.github.io/)
 
 # ICLR2026
 
